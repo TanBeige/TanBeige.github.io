@@ -1,0 +1,213 @@
+/* Home */
+#homeImage {
+    
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*
+	width: 100%;
+	height: 100%;*/
+    max-height:100%;
+    max-width:100%;
+	overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:-1;
+}
+#homeSrc {
+    width: 100%;
+	height: 100%;
+    max-height:100%;
+    max-width:100%;
+    background-size: contain;
+}
+
+.fade {
+    opacity: 1;
+}
+
+
+
+/* tan.php */
+body {
+    background-color: black;
+    margin: 0px;
+}
+
+h1 {
+    position: absolute;
+    color: negative;
+    background:white url(/image.jpg) repeat;
+    -webkit-text-fill-color : transparent;
+    -webkit-background-clip: text;
+}
+
+#main_image {
+    
+	display: block;
+    
+    margin: auto;
+    
+	overflow: visible;
+    border: 5px solid black;
+    border-radius: 20px;
+    
+    /*max-height:700px;
+    max-width:700px;*/
+    max-height: 70%;
+    max-width: 70%;
+}
+
+
+/*background image*/
+
+#back_image {
+	/*position: absolute;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    image-orientation: ;
+    
+	width: 100%;
+	height: 100%;
+    max-height:100%;
+    max-width:100%;
+	overflow: hidden;
+    -webkit-filter: blur(5px);
+    filter: blur(2px);
+}
+
+#backgroundIm {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index:-1;
+}
+
+/*responsive form*/
+
+.col-75{
+    margin: 10px;
+    
+    margin: auto;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+}
+
+.input_container, #tanCont {
+    display: block;
+    text-align: center;
+    
+    /*position: absolute;*/
+}
+
+
+#homeForm {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+
+/* Reset Select */
+select , button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background: #2c3e50;
+    background-image: none;
+    
+
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    /* For I.E */
+    -moz-border-radius:4px
+    /* For Mozilla Web Browser */
+}
+/* Custom Select */
+.select{
+  position: relative;
+  display: block;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0 0 0 .5em;
+  color: #bdede0;  /*change this color later*/
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1em;
+  background: #34495e;
+  pointer-events: none;
+}
+/* Transition */
+.select:hover::after {
+  color: #f39c12;
+}
+.select::after {
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+
+#monthStyle {
+    padding: 4px;
+    width: auto;
+}
+#dayStyle {
+    padding: 4px 0px 4px 7px;
+    width: auto;
+    margin-right: 25px;
+}
+#yearStyle {
+    padding: 4px;
+    width: auto;
+}
+
+button {
+    padding: 6px;
+    color: #fe5f55;  /*change this color later*/
+    cursor: pointer;
+}
+
+
+/*for Youtube videos*/
+iframe {
+    display: block;
+    
+    margin: auto;
+    
+	overflow: visible;
+    border: 5px solid black;
+    border-radius: 20px;
+    
+    max-height:720px;
+    max-width:1080px;
+    /*height:auto;
+    width:auto;*/
+}
